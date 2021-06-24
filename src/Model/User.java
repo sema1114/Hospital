@@ -1,13 +1,16 @@
 package Model;
 
+import Helper.DBConnection;
+
 public class User {
 	
 	private int id;
 	String tcno,name,password,type;
+	DBConnection conn=new DBConnection();
 	
 	public User() {}
 	
-	public User(int id, String tcno, String name, String password, String type) {
+	public User(int id, String tcno, String password, String name, String type) {
 		super();
 		this.id = id;
 		this.tcno = tcno;
