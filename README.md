@@ -1,2 +1,2 @@
 # Hospital
- hospital automation
+ basic hospital automation for practice
